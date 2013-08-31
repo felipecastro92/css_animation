@@ -34,27 +34,29 @@ nav ul li a.dark_nav {
 
 /* line 52, ../sass/main.scss */
 .banner {
-  background: url(../img/img_1.jpg) no-repeat fixed center center/cover #ffaa00;
+  background: url(../img/img_1.jpg) no-repeat center center #ffaa00;
   width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
   height: 600px;
   -webkit-box-shadow: 0px 1px 2px #64e8f0;
   -moz-box-shadow: 0px 1px 2px #64e8f0;
   box-shadow: 0px 1px 2px #64e8f0;
-  z-index: 99999;
-  position: relative;
+  /*z-index:99999;
+  position:relative;*/
 }
 
-/* line 61, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 .animation {
   height: 400px;
   background-color: azure;
 }
-/* line 65, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .animation ul {
   width: 960px;
   margin: 0 auto;
 }
-/* line 69, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 .animation ul li {
   width: 160px;
   height: 85px;
@@ -78,11 +80,11 @@ nav ul li a.dark_nav {
   -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset;
   box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset;
 }
-/* line 88, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .animation ul li:first-child, .animation ul li:last-child {
   margin-top: 150px;
 }
-/* line 93, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .animation ul li:hover {
   -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset, 0px 0px 4px #00525a;
   -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset, 0px 0px 4px #00525a;
@@ -93,19 +95,19 @@ nav ul li a.dark_nav {
   font-weight: bold;
 }
 
-/* line 104, ../sass/main.scss */
+/* line 106, ../sass/main.scss */
 .text {
   background-color: #00848c;
   overflow: hidden;
   *zoom: 1;
   padding: 40px 0px;
 }
-/* line 109, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 .text article {
   width: 70%;
   margin: 0 auto;
 }
-/* line 114, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 .text h2 {
   text-align: center;
   font-family: "Dancing Script", cursive;
@@ -114,7 +116,7 @@ nav ul li a.dark_nav {
   font-size: 50px;
   margin-top: 30px;
 }
-/* line 124, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 .text p.preform {
   text-align: center;
   color: #fff;
@@ -125,7 +127,7 @@ nav ul li a.dark_nav {
   margin-top: 5px;
   font-style: normal;
 }
-/* line 135, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 .text p {
   font-family: 'Georgia', arial, sans-serif;
   color: #fff;
