@@ -1,0 +1,96 @@
+/* Calc padding-top for rounded divs*/
+/* line 18, ../sass/main.scss */
+header {
+  background-image: -webkit-linear-gradient(#1ad4ff, #80e7ff);
+  background-image: -moz-linear-gradient(#1ad4ff, #80e7ff);
+  background-image: -o-linear-gradient(#1ad4ff, #80e7ff);
+  background-image: linear-gradient(#1ad4ff, #80e7ff);
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 22, ../sass/main.scss */
+header nav ul li {
+  float: left;
+  text-transform: uppercase;
+}
+/* line 26, ../sass/main.scss */
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 34, ../sass/main.scss */
+.banner {
+  background: url(../img/img_1.jpg) no-repeat fixed center center/cover #ffaa00;
+  width: 100%;
+  height: 600px;
+  -webkit-box-shadow: 0px 1px 2px #64cce4;
+  -moz-box-shadow: 0px 1px 2px #64cce4;
+  box-shadow: 0px 1px 2px #64cce4;
+  z-index: 99999;
+  position: relative;
+}
+
+/* line 43, ../sass/main.scss */
+.animation {
+  height: 400px;
+  background-color: #e4ffff;
+}
+/* line 47, ../sass/main.scss */
+.animation ul {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 51, ../sass/main.scss */
+.animation ul li {
+  width: 160px;
+  height: 85px;
+  background-color: #006880;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  float: left;
+  margin: 30px;
+  list-style: none;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 75px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  visibility: hidden;
+  border: transparent 1px solid;
+  letter-spacing: 0.5em;
+  margin-top: 90px;
+  -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset;
+  -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset;
+  box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset;
+}
+/* line 71, ../sass/main.scss */
+.animation ul li:first-child, .animation ul li:last-child {
+  margin-top: 150px;
+}
+/* line 76, ../sass/main.scss */
+.animation ul li:hover {
+  -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset, 0px 0px 4px #00364e;
+  -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset, 0px 0px 4px #00364e;
+  box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset, 0px 0px 4px #00364e;
+  border: #80e7ff 1px solid;
+  opacity: 0.85;
+  color: #ffd81a;
+  font-weight: bold;
+}
+
+/* line 87, ../sass/main.scss */
+.text {
+  background-color: #006880;
+}
+/* line 90, ../sass/main.scss */
+.text article {
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 95, ../sass/main.scss */
+.text h2 {
+  text-align: center;
+}

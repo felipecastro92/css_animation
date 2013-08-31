@@ -17,6 +17,20 @@
         <link rel="stylesheet" href="stylesheets/normalize.css">
         <link rel="stylesheet" href="stylesheets/animations.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script>
+            $(window).scroll(function() {
+                $('.a1').each(function(){
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                    if (imagePos < topOfWindow+500) {
+                        $(this).addClass("slideUp");
+                    }
+                });
+            });
+        </script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -38,10 +52,10 @@
         </section>
         <div class="animation">
             <ul>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-                <li>Four</li>
+                <li class="a1">One</li>
+                <li class="a1">Two</li>
+                <li class="a1">Three</li>
+                <li class="a1">Four</li>
             </ul>
         </div>
         <div class="text">
