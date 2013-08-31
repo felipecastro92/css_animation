@@ -37,9 +37,9 @@ nav ul li a.dark_nav {
   background: url(../img/img_1.jpg) no-repeat fixed center center/cover #ffaa00;
   width: 100%;
   height: 600px;
-  -webkit-box-shadow: 0px 1px 2px #64cce4;
-  -moz-box-shadow: 0px 1px 2px #64cce4;
-  box-shadow: 0px 1px 2px #64cce4;
+  -webkit-box-shadow: 0px 1px 2px #64e8f0;
+  -moz-box-shadow: 0px 1px 2px #64e8f0;
+  box-shadow: 0px 1px 2px #64e8f0;
   z-index: 99999;
   position: relative;
 }
@@ -47,7 +47,7 @@ nav ul li a.dark_nav {
 /* line 61, ../sass/main.scss */
 .animation {
   height: 400px;
-  background-color: #e4ffff;
+  background-color: azure;
 }
 /* line 65, ../sass/main.scss */
 .animation ul {
@@ -58,7 +58,7 @@ nav ul li a.dark_nav {
 .animation ul li {
   width: 160px;
   height: 85px;
-  background-color: #006880;
+  background-color: #00848c;
   -webkit-border-radius: 80px;
   -moz-border-radius: 80px;
   border-radius: 80px;
@@ -74,9 +74,9 @@ nav ul li a.dark_nav {
   border: transparent 1px solid;
   letter-spacing: 0.5em;
   margin-top: 90px;
-  -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset;
-  -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset;
-  box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset;
+  -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset;
+  -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset;
+  box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset;
 }
 /* line 88, ../sass/main.scss */
 .animation ul li:first-child, .animation ul li:last-child {
@@ -84,10 +84,10 @@ nav ul li a.dark_nav {
 }
 /* line 93, ../sass/main.scss */
 .animation ul li:hover {
-  -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset, 0px 0px 4px #00364e;
-  -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset, 0px 0px 4px #00364e;
-  box-shadow: 0px 1px 0px white, 0px 2px 1px #004f67 inset, 0px 0px 4px #00364e;
-  border: #80e7ff 1px solid;
+  -webkit-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset, 0px 0px 4px #00525a;
+  -moz-box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset, 0px 0px 4px #00525a;
+  box-shadow: 0px 1px 0px white, 0px 2px 1px #006b73 inset, 0px 0px 4px #00525a;
+  border: #8cf8ff 1px solid;
   opacity: 0.85;
   color: #ffd81a;
   font-weight: bold;
@@ -95,7 +95,7 @@ nav ul li a.dark_nav {
 
 /* line 104, ../sass/main.scss */
 .text {
-  background-color: #006880;
+  background-color: #00848c;
   overflow: hidden;
   *zoom: 1;
   padding: 40px 0px;
@@ -110,7 +110,7 @@ nav ul li a.dark_nav {
   text-align: center;
   font-family: "Dancing Script", cursive;
   color: #fff;
-  text-shadow: 0px -2px 0px #00364e;
+  text-shadow: 0px -2px 0px #00525a;
   font-size: 50px;
   margin-top: 30px;
 }
@@ -131,5 +131,5 @@ nav ul li a.dark_nav {
   color: #fff;
   text-align: center;
   font-style: italic;
-  color: #c6ffff;
+  color: #d2ffff;
 }
