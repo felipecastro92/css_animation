@@ -9,24 +9,42 @@ $sec-color:#FFD81A;
 $sec-color-light:lighten($sec-color, 20);
 $sec-color-dark:darken($sec-color, 30);
 
+$script:'Dancing Script', cursive;
+
 
 /* Calc padding-top for rounded divs*/
 $div-height: 85px;
 $padding-top-rounded: 160 - $div-height; 
 
+/*@include background-image(linear-gradient($main_color, $main-color-light));*/
+nav{
+	position:fixed;
+}
 
-header{
-	@include background-image(linear-gradient($main_color, $main-color-light));
-	@include clearfix;
 
-	nav ul li{
-		float:left;
-		text-transform:uppercase;
+nav ul li{
+	float:left;
+	text-transform:uppercase;
 
-		a{
-			text-decoration:none;
-			color:($main-color-light + 150);
+	a{
+		text-decoration:none;
+		color:($main-color-light + 150);
+		font-size:50px;
+		opacity:0.4;
+
+		&:hover{
+			opacity:1;
+			@include text-shadow(0px 0px 3px #000 0.5);
 		}
+
+		&.active{
+			opacity:1;
+		}
+
+		&.dark_nav{
+			opacity:0;
+		}
+
 	}
 }
 
@@ -62,7 +80,6 @@ header{
 			color:($main-color-light + 150);
 			text-transform:uppercase;
 			font-size:12px;
-			visibility:hidden;
 			border:transparent 1px solid;
 			letter-spacing:0.5em;
 			margin-top:90px;
@@ -86,6 +103,8 @@ header{
 
 .text{
 	background-color:$main-color-dark;
+	@include clearfix;
+	padding:40px 0px;
 
 	article{
 		width:70%;
@@ -94,7 +113,31 @@ header{
 
 	h2{
 		text-align:center;
+		font-family:$script;
+		color:#fff;
+		@include text-shadow(0px -2px 0px $main-color-dark - 50);
+		font-size:50px;
+		margin-top:30px;
 
+	}
+
+	p.preform{
+		text-align: center;
+		color:#fff;
+		font-family:"Lucida Console", Monaco, monospace;
+		letter-spacing:0.4em;
+		line-height:130%;
+		font-size:13px;
+		margin-top:5px;
+		font-style:normal;
+	}
+
+	p{
+		font-family:'Georgia', arial, sans-serif;
+		color:#fff;
+		text-align:center;
+		font-style:italic;
+		color:$main-color-light + 70;
 	}
 }
 	
