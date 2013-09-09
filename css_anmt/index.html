@@ -21,6 +21,7 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="js/tabs.js"></script>
         <script>
             $(window).scroll(function() {
                 $('.a1').each(function(){
@@ -68,7 +69,33 @@
                 <p class="preform">Lorem ipsum dolor sit amet.</p>
                 <p>Pellentesque lacinia non purus in elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc luctus tortor urna, id ullamcorper odio volutpat a. Cras aliquam lectus non dui ultricies, vel sollicitudin orci ullamcorper.</p>
             </p>
-        </div>    
+        </div>
+        <section class="tabs" id="tabs">
+                <nav>
+                    <ul>
+                        <li><a class="item_menu item_a" href="#tabs">Uno</a></li>
+                        <li><a class="item_menu item_b" href="#tabs">Dos</a></li>
+                        <li><a class="item_menu item_c" href="#tabs">Tres</a></li>
+                        <li><a class="item_menu item_d" href="#tabs">Cuatro</a></li>
+                    </ul>
+                </nav>
+            <div class="tab tab_a">
+                <h3 class="any_title slideDown">Hi, I'm a heading 3 - Tab 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo magna, mattis vel eros vel, venenatis adipiscing lorem. In velit nulla, dictum a porta ac, egestas at massa.</p>
+            </div>
+            <div class="tab tab_b hidden">
+                <h3 class="any_title">Hi, I'm a heading 3 - Tab 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo magna, mattis vel eros vel, venenatis adipiscing lorem. In velit nulla, dictum a porta ac, egestas at massa.</p>
+            </div>
+            <div class="tab tab_c hidden">
+                <h3 class="any_title">Hi, I'm a heading 3 - Tab 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo magna, mattis vel eros vel, venenatis adipiscing lorem. In velit nulla, dictum a porta ac, egestas at massa.</p>
+            </div>
+            <div class="tab tab_d hidden">
+                <h3 class="any_title">Hi, I'm a heading 3 - Tab 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo magna, mattis vel eros vel, venenatis adipiscing lorem. In velit nulla, dictum a porta ac, egestas at massa.</p>
+            </div>
+        </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

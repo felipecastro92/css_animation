@@ -17,12 +17,12 @@ $div-height: 85px;
 $padding-top-rounded: 160 - $div-height; 
 
 /*@include background-image(linear-gradient($main_color, $main-color-light));*/
-nav{
+nav.main{
 	position:fixed;
 }
 
 
-nav ul li{
+nav.main ul li{
 	float:left;
 	text-transform:uppercase;
 
@@ -141,6 +141,15 @@ nav ul li{
 		font-style:italic;
 		color:$main-color-light + 70;
 	}
+}
+
+.tabs{
+
+	.hidden{
+		display:none;
+		visibility:hidden;
+	}
+
 }
 	
 
